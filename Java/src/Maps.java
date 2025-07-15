@@ -65,5 +65,7 @@ public class Maps {
             charFrequencyMap.put(c,charFrequencyMap.getOrDefault(c,0)+1);
         }
         charFrequencyMap.forEach((c,count)-> System.out.println(c+" : "+count));
+
+        //Day3- learned technically about few tools.
         }
 }
